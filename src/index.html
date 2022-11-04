@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>layout-designer-project-58 Architect-ml</title>
     <link rel="stylesheet" href="styles/style.css" />
+    <script src="/index.js" defer></script>
   </head>
   <body>
-    <header class="header">
+    <header class="header" id="header">
       <div class="container">
         <div class="header-title">
           <h1>
@@ -23,13 +24,13 @@
           <div class="header-column-right">
             <p>Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере продуктивности, багам и бесконечному разочарованию.</p>
             <p>Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.</p>
-            <a class="header-btn" href="#navigation">подробнее</a>
+            <a href="#navigation" class="button">подробнее</a>
           </div>
         </div>
       </div>
     </header>
     <main class="main">
-      <section class="section-video">
+      <section class="section-video" id="video">
         <div class="container">
           <div class="section-video-text">
             <h1 class="section-video-title">Что же это такое,<br /><span class="orange-title">когнитивные искажения?</span></h1>
@@ -40,33 +41,33 @@
           </div>
         </div>
       </section>
-      <section class="navigation">
-        <div class="container" id="navigation">
+      <section class="navigation" id="navigation">
+        <div class="container">
           <div class="navigation-list">
             <div class="navigation-title-card">
               <h2 class="navigation-title"><span class="orange-title">5 когнитивных искажений</span><br /><span class="white-title">o существовании которых стоит помнить</span></h2>
             </div>
-            <a class="navigation-card" href="#">
+            <a href="#header" class="navigation-card">
               <h1 class="navigation-card-number">1</h1>
               <h3 class="navigation-card-name">Эффект ИКЕА</h3>
               <p class="navigation-card-text">Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
             </a>
-            <a class="navigation-card" href="#">
+            <a href="#header" class="navigation-card">
               <h1 class="navigation-card-number">2</h1>
               <h3 class="navigation-card-name">Преждевременная оптимизация</h3>
               <p class="navigation-card-text">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
             </a>
-            <a class="navigation-card" href="#">
+            <a href="#header" class="navigation-card">
               <h1 class="navigation-card-number">3</h1>
               <h3 class="navigation-card-name">Искажение новизны</h3>
               <p class="navigation-card-text">Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.</p>
             </a>
-            <a class="navigation-card" href="#">
+            <a href="#header" class="navigation-card">
               <h1 class="navigation-card-number">4</h1>
               <h3 class="navigation-card-name">Гиперболическое обесценивание</h3>
               <p class="navigation-card-text">Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но доступную в будущем.</p>
             </a>
-            <a class="navigation-card" href="#">
+            <a href="#header" class="navigation-card">
               <h1 class="navigation-card-number">5</h1>
               <h3 class="navigation-card-name">Ошибка планирования</h3>
               <p class="navigation-card-text">Неправильно рассчитывать время необходимое для завершения задачи.</p>
