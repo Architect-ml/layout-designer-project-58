@@ -1,4 +1,5 @@
-document.querySelectorAll('a').forEach((link) => {
+// smooth scroll
+document.querySelectorAll('a.button, a.navigation-card').forEach((link) => {
   link.addEventListener('click', function (e) {
     e.preventDefault();
 
