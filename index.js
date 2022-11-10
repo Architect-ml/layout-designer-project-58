@@ -1,9 +1,9 @@
 // smooth scroll
-document.querySelectorAll('a.button, a.navigation-card').forEach((link) => {
-  link.addEventListener('click', function (e) {
+document.querySelectorAll("a.button, a.navigation-card").forEach((link) => {
+  link.addEventListener("click", function (e) {
     e.preventDefault();
 
-    const href = this.getAttribute('href').substring(1);
+    const href = this.getAttribute("href").substring(1);
 
     const scrollTarget = document.getElementById(href);
 
@@ -13,7 +13,7 @@ document.querySelectorAll('a.button, a.navigation-card').forEach((link) => {
 
     window.scrollBy({
       top: offsetPosition,
-      behavior: 'smooth',
+      behavior: "smooth",
     });
   });
 });
