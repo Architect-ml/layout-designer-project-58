@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans:wght@400;700&display=swap");
+@import url "https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans:wght@400;700&display=swap";
 
 :root {
   --color-white: #fff;
@@ -36,7 +36,7 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Neucha", sans-serif;
+  font-family: Neucha, sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.2em;
@@ -336,7 +336,6 @@ h5 {
 .footer-block-form-email {
   display: flex;
   flex-direction: row;
-  flex-flow: nowrap;
   justify-content: flex-start;
 }
 
