@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans:wght@400;700&display=swap");
 
 :root {
   --color-white: #ffffff;
@@ -13,6 +13,7 @@
   --color-blue: #1085c5;
   --color-light-grey: #757575;
 }
+
 *,
 *::before,
 *::after {
@@ -21,38 +22,46 @@
   border: 0;
   box-sizing: border-box;
 }
+
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.6em;
   color: var(--color-dark);
 }
+
 h1,
 h2,
 h3,
 h4 {
-  font-family: 'Neucha';
+  font-family: "Neucha";
   font-style: normal;
   font-weight: 400;
   line-height: 1.2em;
 }
+
 h1 {
   font-size: 72px;
 }
+
 h2 {
   font-size: 60px;
 }
+
 h3 {
   font-size: 34px;
 }
+
 h4 {
   font-size: 24px;
 }
+
 h5 {
   font-size: 18px;
 }
+
 .container {
   column-count: auto;
   position: relative;
@@ -60,12 +69,14 @@ h5 {
   margin: 0 auto;
   padding: 100px 0;
 }
+
 .header {
   position: relative;
   max-width: 100%;
   overflow: hidden;
   background-color: var(--color-light);
 }
+
 .header::before {
   position: absolute;
   width: 100%;
@@ -74,33 +85,40 @@ h5 {
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;
-  content: '';
+  content: "";
 }
+
 .header-title {
   margin-bottom: 200px;
   position: relative;
   z-index: 1;
 }
+
 .orange-title {
   color: var(--color-primary-orange);
 }
+
 .header-img {
   position: absolute;
   top: 55px;
   right: -270px;
   height: 525px;
 }
+
 .columns {
   display: flex;
   justify-content: center;
 }
+
 .column-left {
   flex-basis: 50%;
   margin-right: 30px;
 }
+
 .column-right {
   flex-basis: 50%;
 }
+
 .button {
   max-width: 148px;
   max-height: 49px;
@@ -114,52 +132,65 @@ h5 {
   color: var(--color-white);
   background-color: var(--color-primary-orange);
 }
+
 .button:hover {
   background-color: var(--color-primary-orange-dark);
   transition: 0.5s;
 }
+
 .main {
   box-sizing: border-box;
 }
+
 .section-video {
   position: relative;
   top: 200px;
   text-align: center;
   margin-top: -200px;
 }
+
 .section-video-title {
   font-size: 60px;
 }
+
 .section-video-subtitle {
   margin: 30px 0;
   color: #212529;
 }
+
 .section-video-youtube {
   max-width: 100%;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
+
 .video {
   max-width: 100%;
 }
+
 .navigation {
   padding-top: 100px;
   background: var(--color-primary-dark);
 }
+
 .navigation-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
 .navigation-title-card {
   width: 350px;
   margin-bottom: 20px;
 }
+
 .navigation-title {
   font-size: 52px;
 }
+
 .white-title {
   color: var(--color-white);
 }
+
 .navigation-card {
   width: 350px;
   margin-bottom: 20px;
@@ -167,35 +198,42 @@ h5 {
   background-color: var(--color-light);
   text-decoration: none;
 }
+
 .navigation-card-number {
   margin-bottom: 40px;
   font-size: 64px;
   line-height: 1;
   color: var(--color-dark);
 }
+
 .navigation-card-name {
   margin-bottom: 16px;
   color: var(--color-primary-orange);
 }
+
 .navigation-card-text {
   color: var(--color-dark);
 }
+
 .navigation-card:hover {
   background-color: var(--color-primary-orange);
   transition-duration: 1s;
 }
+
 .navigation-card:hover h1,
 .navigation-card:hover h3,
 .navigation-card:hover p {
   color: var(--color-white);
   transition: 0.3s;
 }
+
 .section-light {
   position: relative;
   max-width: 100%;
   overflow: hidden;
   background-color: var(--color-light);
 }
+
 .section-brown {
   position: relative;
   max-width: 100%;
@@ -203,6 +241,7 @@ h5 {
   color: var(--color-white);
   background-color: var(--color-brown);
 }
+
 .section-brown::before,
 .section-light::before {
   position: absolute;
@@ -212,33 +251,40 @@ h5 {
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;
-  content: '';
+  content: "";
 }
+
 .section-header {
   display: flex;
   justify-content: space-between;
 }
+
 .section-header-img-left {
   max-width: 100%;
   margin-right: 30px;
   vertical-align: middle;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
+
 .section-header-img-right {
   max-width: 100%;
   margin-left: 30px;
   vertical-align: middle;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
+
 .section-header-text-subtitle-left {
   color: var(--color-translucent-white);
 }
+
 .section-header-text-subtitle-right {
   color: var(--color-translucent-dark);
 }
+
 .section-header-text-title {
   margin-bottom: 30px;
 }
+
 .section-strip-brown {
   margin-top: 100px;
   margin-bottom: 20px;
@@ -249,6 +295,7 @@ h5 {
   background-color: var(--color-brown);
   line-height: normal;
 }
+
 .section-strip-white {
   margin-top: 100px;
   margin-bottom: 20px;
@@ -259,6 +306,7 @@ h5 {
   background-color: var(--color-white);
   line-height: normal;
 }
+
 .footer-block {
   display: flex;
   flex-direction: row;
@@ -266,11 +314,13 @@ h5 {
   color: var(--color-white);
   background-color: var(--color-primary-dark);
 }
+
 .footer-block-title {
   padding: 55px 0 55px 55px;
   flex-basis: 50%;
   color: var(--color-white);
 }
+
 .footer-block-form {
   padding-right: 50px;
   display: flex;
@@ -278,29 +328,35 @@ h5 {
   justify-content: center;
   flex-basis: 50%;
 }
+
 .footer-block-form-lable {
   margin-bottom: 9px;
 }
+
 .footer-block-form-email {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: flex-start;
 }
+
 .footer-block-form-email-input {
   width: 100%;
   height: 50px;
   padding: 15px;
 }
+
 .footer-block-form-email-input::placeholder {
   opacity: 0.2;
 }
+
 .footer-block-form-email-btn {
   position: relative;
   width: 70px;
   height: 50px;
   background-color: var(--color-primary-orange);
 }
+
 .footer-block-form-email-btn::before {
   position: absolute;
   top: 25%;
@@ -309,24 +365,29 @@ h5 {
   height: 100%;
   background-image: url(images/send.svg);
   background-repeat: no-repeat;
-  content: '';
+  content: "";
 }
+
 .footer-block-form-email-btn:hover {
   background-color: var(--color-primary-orange-dark);
   transition: 0.5s;
 }
+
 .footer-block-form-agreement {
   color: var(--color-white);
 }
+
 .footer-about {
   margin-top: 60px;
   font-size: 14px;
   text-align: center;
 }
+
 .footer-about-materials,
 .footer-about-autor {
   margin-bottom: 16px;
 }
+
 .footer-about-hexlet,
 .footer-about-materials-color {
   color: var(--color-blue);
